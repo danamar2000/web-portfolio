@@ -1,0 +1,10 @@
+h1 {
+  font-family: "Outfit", sans-serif;
+  color: #EFEFEF;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
