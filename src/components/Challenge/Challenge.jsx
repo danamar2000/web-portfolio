@@ -155,7 +155,7 @@ const Challenge = ({ currentDay = 1 }) => {
             <a href="https://www.linkedin.com/in/dan-amar-8b0806234">
               LinkedIn
             </a>{" "}
-            every day. These are the facts I’ve shared. Please visit my LinkedIn
+            every day. Please visit my LinkedIn
             profile to learn more and see the concept explanation.
           </p>
         </div>
