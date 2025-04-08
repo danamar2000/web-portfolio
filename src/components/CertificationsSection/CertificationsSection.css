@@ -64,7 +64,7 @@
 
   .certifications-section a:nth-child(1) img {
     width: 100px;
-    margin-left: -50px;
+    margin-left: -10px;
     height: auto;
   }
 
@@ -76,11 +76,13 @@
   .certifications-section a:nth-child(3) img {
     width: 60px;
     height: auto;
+    margin-left: 20px;
   }
 
   .certifications-section a:nth-child(4) img {
     width: 100px;
     height: auto;
     margin-right: 20px;
+    margin-left: 20px;
   }
 }
