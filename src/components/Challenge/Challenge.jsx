@@ -155,8 +155,9 @@ const Challenge = ({ currentDay = 1 }) => {
             <a href="https://www.linkedin.com/in/dan-amar-8b0806234">
               LinkedIn
             </a>{" "}
-            every day. Please visit my LinkedIn
-            profile to learn more and see the concept explanation.
+            every day. The bubbles you see are the current concepts I have
+            already covered. Please visit my LinkedIn profile to learn more and
+            see the concept explanation.
           </p>
         </div>
         <canvas ref={canvasRef} />
