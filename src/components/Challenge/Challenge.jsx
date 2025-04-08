@@ -150,7 +150,7 @@ const Challenge = ({ currentDay = 1 }) => {
         <div className="bubble-text">
           <h1>30 Day Challenge</h1>
           <p>
-            I've set a challenge for myself on the <u>8th April 2025</u> to
+            I've set a challenge for myself on the <u>9th April 2025</u> to
             share 1 Cybersecurity/Networking/Web Development concept on{" "}
             <a href="https://www.linkedin.com/in/dan-amar-8b0806234">
               LinkedIn
