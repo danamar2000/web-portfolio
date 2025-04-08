@@ -1,0 +1,74 @@
+.bubble-section {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 600px;
+}
+
+.bubble-section canvas {
+  display: block;
+}
+
+.bubble-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.bubble-text {
+  position: absolute;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
+.bubble-container h1 {
+  font-family: 'Outfit', sans-serif;
+  color: white;
+  align-self: center;
+  font-size: 60px;
+}
+
+.bubble-container p {
+  font-family: 'Outfit', sans-serif;
+  color: white;
+  align-self: center;
+  font-size: 20px;
+  width: 700px;
+  text-align: center;
+}
+
+.bubble-container p a {
+  font-family: 'Outfit', sans-serif;
+  color: white;
+  align-self: center;
+  font-size: 20px;
+}
+
+.bubble-container p a:hover {
+  color: #104F55;
+}
+
+/* Responsive styling for mobile devices */
+@media (max-width: 768px) {
+  .bubble-section {
+    margin-top: 150px;
+    height: 400px;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  .bubble-container h1 {
+    font-size: 40px; /* Smaller title font size */
+  }
+
+  .bubble-container p {
+    font-size: 16px; /* Reduced font size for paragraph text */
+    width: 90%;
+  }
+}

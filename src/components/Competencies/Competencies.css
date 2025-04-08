@@ -1,3 +1,13 @@
+.large-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 1800px;
+  margin-top: 100px;
+  background: linear-gradient(275deg, #104F55, #191414);
+}
+
 .competencies {
   display: flex;
   flex-direction: column;
@@ -5,9 +15,7 @@
   gap: 50px;
   width: 100vw;
   height: 1000px;
-  margin-top: 100px;
   padding-top: 200px;
-  background: linear-gradient(275deg, #104F55, #191414);
 }
 
 .category-container {
@@ -61,8 +69,15 @@
 
 /* Responsive styling for mobile devices */
 @media (max-width: 768px) {
+
+  .large-container {
+    height: 1500px;
+    margin-top: 100px;
+    background: linear-gradient(275deg, #104F55, #191414);
+  }
+
   .competencies {
-    height: auto; /* Allow height to adjust based on content */
+    height: auto;
     margin-top: 100px;
     padding-top: 100px;
     gap: 30px;

@@ -1,18 +1,12 @@
-import React, { useState } from 'react';
 import './Contact.css';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { FiMail, FiPhone } from 'react-icons/fi';
 
 const ContactMe = () => {
-  const [open, setOpen] = useState(false);
-
-  const toggleContact = () => {
-    setOpen(prev => !prev);
-  };
 
   return (
     <div className="contact-wrapper">
-      <span className="chat-button" onClick={toggleContact}>
+      <span className="chat-button">
         Let's chat!
       </span>
       <div className={`contact-info ${open ? 'open' : ''}`}>

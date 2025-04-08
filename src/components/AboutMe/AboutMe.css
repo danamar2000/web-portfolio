@@ -9,6 +9,9 @@
   font-family: "Outfit", sans-serif;
   font-weight: 200;
   height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 #about-me h1 {
@@ -22,6 +25,8 @@
   font-size: 1.2rem;
   line-height: 1.6;
   color: #666;
+  align-self: center;
+  width: 800px;
 }
 
 /* Responsive styling for mobile devices */
@@ -40,5 +45,6 @@
   #about-me p {
     font-size: 1rem;
     line-height: 1.4;
+    width: 80%;
   }
 }
