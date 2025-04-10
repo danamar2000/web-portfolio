@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import "./Challenge.css";
 
-const Challenge = ({ currentDay = 1 }) => {
+const Challenge = ({ currentDay = 2 }) => {
   const canvasRef = useRef(null);
   const bubblesRef = useRef([]);
   const addBubbleRef = useRef(null);
@@ -101,7 +101,7 @@ const Challenge = ({ currentDay = 1 }) => {
     // Array of facts for your challenge; update as you add new facts.
     const facts = [
       "TCP/IP",
-      "Fact for Day 2",
+      "HTTP vs. HTTPS",
       "Fact for Day 3",
       "Fact for Day 4",
       "Fact for Day 5",

@@ -17,7 +17,7 @@ const AboutMe = () => {
         />
       </h1>
       <p>
-        Hi, I’m Dan Amar. Let me try to get this right; I work as a Frontend Web developer, while studying Cybersecurity, while in pursuit of learning how to build software. Weird, right? Anyways, I hope you enjoy interacting with this website as much as i enjoyed making it. New updates coming soon!
+        Hi, I’m Dan Amar. Let me try to get this right; I work as a Frontend Web developer, while studying Cybersecurity, while in pursuit of learning how to build software. Weird, right? Anyways, I hope you enjoy interacting with this website as much as I enjoyed making it. New updates coming soon!
       </p>
     </section>
   );
