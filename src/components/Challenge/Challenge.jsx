@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import "./Challenge.css";
 
-const Challenge = ({ currentDay = 7 }) => {
+const Challenge = ({ currentDay = 8 }) => {
   const canvasRef = useRef(null);
   const bubblesRef = useRef([]);
   const addBubbleRef = useRef(null);
