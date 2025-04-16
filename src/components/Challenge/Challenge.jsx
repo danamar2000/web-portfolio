@@ -107,7 +107,7 @@ const Challenge = ({ currentDay = 7 }) => {
       "OSI Model",
       "DNS",
       "Hashing Vs. Encryption",
-      "Fact for Day 8",
+      "SIEM TOOLS",
       "Fact for Day 9",
       "Fact for Day 10",
       "Fact for Day 11",
