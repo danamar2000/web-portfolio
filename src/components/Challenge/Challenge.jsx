@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import "./Challenge.css";
 
-const Challenge = ({ currentDay = 8 }) => {
+const Challenge = ({ currentDay = 10 }) => {
   const canvasRef = useRef(null);
   const bubblesRef = useRef([]);
   const addBubbleRef = useRef(null);
@@ -108,8 +108,8 @@ const Challenge = ({ currentDay = 8 }) => {
       "DNS",
       "Hashing Vs. Encryption",
       "SIEM TOOLS",
-      "Fact for Day 9",
-      "Fact for Day 10",
+      "MFA",
+      "PKI",
       "Fact for Day 11",
       "Fact for Day 12",
       "Fact for Day 13",
