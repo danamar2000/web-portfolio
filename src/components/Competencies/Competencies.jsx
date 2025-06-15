@@ -36,7 +36,6 @@ const Competencies = () => {
           </div>
         </div>
       </div>
-      <Challenge />
       <Contact />
     </div>
   );
